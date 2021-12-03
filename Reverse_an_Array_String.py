@@ -1,3 +1,10 @@
+s = input()
+str = ""
+for i in s:
+  str = i + str
+print(str)
+
+# ________________ OR _____________________________
 
 arr = list(map(int, input().split()))
 print("Array is :",arr)
